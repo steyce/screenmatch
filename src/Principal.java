@@ -28,7 +28,7 @@ public class Principal {
         brooklyn.setTemporadas(7);
         brooklyn.setEpisodiosPortemporada(10);
         brooklyn.setMinutosPorEpisodio(25);
-        System.out.println("Duração para maratonar Brooklyn Nine-Nine: " + brooklyn.getDuracaoEmMinutos() + " minutos");
+        System.out.println("Duração para maratonar a série Brooklyn Nine-Nine: " + brooklyn.getDuracaoEmMinutos() + " minutos");
 
         Filme outroFilme = new Filme();
         outroFilme.setNome("As Branquelas");
